@@ -20,10 +20,8 @@ dir = getDirectory("image");
 
 
 Stack.setDisplayMode("composite");
-
  for (i=1; i<=channels; i++) {
   Dialog.create("Ch"+i+": shift" );
-
   Dialog.addNumber("X Shift:",0);
   Dialog.addNumber("Y Shift:", 0);
   Dialog.show();
